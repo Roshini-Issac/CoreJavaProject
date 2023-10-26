@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing" parallel="classes"
+	thread-count="3">
+	
+	<test name="App Test">
+		<classes>
+		<class name="DemoPrj.SeleniumProject.AppTest" />
+	</classes>
+	</test>
+</suite>
